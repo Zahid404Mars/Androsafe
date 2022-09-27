@@ -1,7 +1,7 @@
-<h1> Hawk App </h1>
+<h1> Androsafe App </h1>
 <h2> Summary </h2>
-<h3>The Hawk is an intruder alert app that silently takes a picture from the front camera when a wrong PIN is entered and emails the same to a predetermined email id. An email is sent for every alternate incorrect attempt.</h3>
-<p>Demo Video: https://youtu.be/PNhSSaxPVcY </p>
+<h3>The Androsafe is an intruder alert app that silently takes a picture from the front camera when a wrong PIN is entered and emails the same to a predetermined email id. An email is sent for every alternate incorrect attempt.</h3>
+
 <h2> Set-Up </h2>
 <h3>This app requires admin privileges. Enable the same by checking the box. Then enter email where the alert is to be sent</h3>
 
