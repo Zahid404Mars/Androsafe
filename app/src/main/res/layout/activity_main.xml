@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Zahid.android.AnDrOsAfE.MainActivity"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:id="@+id/setupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/setupbg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="AnDrOsAfE"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device Admin Enabled"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/adminAccessCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email-Id"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="protectedname1234@zahid.xyz"
+                android:inputType="textEmailAddress"
+                android:textColor="#32CD32	" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tv_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:text="Set"
+            android:textColor="#eb596e" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vBar"
+        android:layout_below="@id/setupLayout"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="3dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffe227" />
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/setupLayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/setupbg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="System\n Watch" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="OFF"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/setupLayout"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/vBar"
+        android:background="@drawable/setupbg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Wront PIN\n     Count" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Reset"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

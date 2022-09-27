@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Zahid.android.AnDrOsAfE">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hawk">
+        <activity android:name="com.Zahid.android.AnDrOsAfE.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />  <!-- Entry point of the application-->
+                <category android:name="android.intent.category.LAUNCHER" /> <!--Place this activity in launcher category, will have an icon-->
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.Zahid.android.AnDrOsAfE.SecurityService"/>
+
+        <!-- The loginWatch class extends BroadcastReceiver class -->
+        <receiver
+            android:name="com.Zahid.android.AnDrOsAfE.loginWatch"
+            android:permission="android.permission.BIND_DEVICE_ADMIN"
+            android:exported="true"> <!-- This pevents other apps from misuing the receiver, ensures only system interacts with receiver -->
+            <!-- The meta-data contains the policies-->
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/policies" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+                <action android:name="android.app.action.ACTION_PASSWORD_FAILED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
