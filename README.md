@@ -12,6 +12,7 @@
 ![Screenshot (20)](https://user-images.githubusercontent.com/114461735/192595467-ac38d6e9-eaf1-4543-8522-a534cc9df75a.png)
 
 ![Screenshot (21)](https://user-images.githubusercontent.com/114461735/192596467-72d65ac0-e27f-4c15-bd0e-756952da62c1.png)
+![Screenshot (24)](https://user-images.githubusercontent.com/114461735/192596720-b587ace7-c923-4012-8565-b8bf7bc66b68.png)
 <h2>Sample Email</h2>
 
 <img width="500" alt="6" src="https://user-images.githubusercontent.com/67473215/105156414-d204ff00-5b31-11eb-804a-4ca0d3284f2b.PNG">
