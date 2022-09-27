@@ -15,7 +15,7 @@
 ![Screenshot (24)](https://user-images.githubusercontent.com/114461735/192596720-b587ace7-c923-4012-8565-b8bf7bc66b68.png)
 <h2>Sample Email</h2>
 
-<img width="500" alt="6" src="https://user-images.githubusercontent.com/67473215/105156414-d204ff00-5b31-11eb-804a-4ca0d3284f2b.PNG">
+![InkedScreenshot (30)](https://user-images.githubusercontent.com/114461735/192598245-b7e9faac-d531-4adc-9859-1e90fe0f7fe4.jpg)
 
 <h2>Note</h2>
 1. Currently supported only for 4 digit PIN </br>
