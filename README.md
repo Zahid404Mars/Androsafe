@@ -5,8 +5,7 @@
 <h2> Set-Up </h2>
 <h3>This app requires admin privileges. Enable the same by checking the box. Then enter email where the alert is to be sent</h3>
 
-<![Screenshot (19)](https://user-images.githubusercontent.com/114461735/192594545-c6359c72-bcc5-4a2c-acd4-ed05ee883d0b.png)
-">
+![Screenshot (19)](https://user-images.githubusercontent.com/114461735/192594545-c6359c72-bcc5-4a2c-acd4-ed05ee883d0b.png)
 
 <img width="500" alt="6" ![Screenshot (13)](https://user-images.githubusercontent.com/114461735/192595112-80f4a3d1-d275-404d-86de-c14be2ff847a.png)
 ">
