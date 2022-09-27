@@ -7,8 +7,7 @@
 
 ![Screenshot (19)](https://user-images.githubusercontent.com/114461735/192594545-c6359c72-bcc5-4a2c-acd4-ed05ee883d0b.png)
 
-<img width="500" alt="6" ![Screenshot (13)](https://user-images.githubusercontent.com/114461735/192595112-80f4a3d1-d275-404d-86de-c14be2ff847a.png)
-">
+![Screenshot (13)](https://user-images.githubusercontent.com/114461735/192595112-80f4a3d1-d275-404d-86de-c14be2ff847a.png)
 
 <![Screenshot (20)](https://user-images.githubusercontent.com/114461735/192595467-ac38d6e9-eaf1-4543-8522-a534cc9df75a.png)>
 
